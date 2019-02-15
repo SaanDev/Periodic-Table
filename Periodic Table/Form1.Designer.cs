@@ -147,15 +147,60 @@
             this.button117 = new System.Windows.Forms.Button();
             this.button118 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lbl7 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.lbl6 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.lbl8 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.lbl9 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.lbl10 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.lbl12 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.lbl11 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.lbl13 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.lbl14 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.lbl15 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -163,6 +208,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(225)))), ((int)(((byte)(150)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(365, 92);
@@ -175,6 +221,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Yellow;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(415, 92);
@@ -187,6 +234,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(225)))), ((int)(((byte)(150)))));
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(365, 145);
@@ -199,6 +247,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Yellow;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(415, 145);
@@ -211,6 +260,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(225)))), ((int)(((byte)(150)))));
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(365, 198);
@@ -223,6 +273,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Yellow;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(415, 198);
@@ -235,6 +286,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(225)))), ((int)(((byte)(150)))));
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(365, 251);
@@ -246,6 +298,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.Yellow;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(415, 251);
@@ -257,6 +310,7 @@
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(225)))), ((int)(((byte)(150)))));
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(365, 304);
@@ -268,6 +322,7 @@
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.Yellow;
+            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(415, 304);
@@ -279,6 +334,7 @@
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(225)))), ((int)(((byte)(150)))));
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(365, 357);
@@ -290,6 +346,7 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.Yellow;
+            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(415, 357);
@@ -301,6 +358,7 @@
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.Salmon;
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(465, 198);
@@ -313,6 +371,7 @@
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.Salmon;
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(515, 198);
@@ -325,6 +384,7 @@
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.Salmon;
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(565, 198);
@@ -337,6 +397,7 @@
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.Salmon;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(615, 198);
@@ -349,18 +410,20 @@
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.Salmon;
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.Location = new System.Drawing.Point(665, 198);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(51, 54);
             this.button17.TabIndex = 0;
-            this.button17.Text = "Fe";
+            this.button17.Text = "Mn";
             this.button17.UseVisualStyleBackColor = false;
             // 
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.Salmon;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.Location = new System.Drawing.Point(765, 198);
@@ -373,18 +436,20 @@
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.Salmon;
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.Location = new System.Drawing.Point(715, 198);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(51, 54);
             this.button19.TabIndex = 0;
-            this.button19.Text = "Mn";
+            this.button19.Text = "Fe";
             this.button19.UseVisualStyleBackColor = false;
             // 
             // button20
             // 
             this.button20.BackColor = System.Drawing.Color.Salmon;
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(815, 198);
@@ -397,6 +462,7 @@
             // button21
             // 
             this.button21.BackColor = System.Drawing.Color.Salmon;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.Location = new System.Drawing.Point(865, 198);
@@ -409,6 +475,7 @@
             // button22
             // 
             this.button22.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.Location = new System.Drawing.Point(915, 198);
@@ -421,6 +488,7 @@
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Location = new System.Drawing.Point(965, 198);
@@ -432,6 +500,7 @@
             // button24
             // 
             this.button24.BackColor = System.Drawing.Color.LimeGreen;
+            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.Location = new System.Drawing.Point(1065, 198);
@@ -443,6 +512,7 @@
             // button25
             // 
             this.button25.BackColor = System.Drawing.Color.LimeGreen;
+            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.Location = new System.Drawing.Point(1165, 198);
@@ -454,6 +524,7 @@
             // button26
             // 
             this.button26.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button26.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.Location = new System.Drawing.Point(1015, 198);
@@ -465,6 +536,7 @@
             // button27
             // 
             this.button27.BackColor = System.Drawing.Color.LimeGreen;
+            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.Location = new System.Drawing.Point(1115, 198);
@@ -476,6 +548,7 @@
             // button28
             // 
             this.button28.BackColor = System.Drawing.Color.MediumPurple;
+            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button28.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.Location = new System.Drawing.Point(1215, 198);
@@ -486,6 +559,7 @@
             // 
             // button29
             // 
+            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.Location = new System.Drawing.Point(465, 251);
@@ -497,6 +571,7 @@
             // button30
             // 
             this.button30.BackColor = System.Drawing.Color.Salmon;
+            this.button30.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button30.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.Location = new System.Drawing.Point(665, 251);
@@ -508,6 +583,7 @@
             // button31
             // 
             this.button31.BackColor = System.Drawing.Color.Salmon;
+            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button31.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button31.Location = new System.Drawing.Point(565, 251);
@@ -519,6 +595,7 @@
             // button32
             // 
             this.button32.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button32.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button32.Location = new System.Drawing.Point(965, 251);
@@ -530,6 +607,7 @@
             // button33
             // 
             this.button33.BackColor = System.Drawing.Color.Salmon;
+            this.button33.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button33.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button33.Location = new System.Drawing.Point(765, 251);
@@ -541,6 +619,7 @@
             // button34
             // 
             this.button34.BackColor = System.Drawing.Color.Salmon;
+            this.button34.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button34.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button34.Location = new System.Drawing.Point(865, 251);
@@ -552,6 +631,7 @@
             // button35
             // 
             this.button35.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button35.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button35.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button35.Location = new System.Drawing.Point(1065, 251);
@@ -563,6 +643,7 @@
             // button36
             // 
             this.button36.BackColor = System.Drawing.Color.LimeGreen;
+            this.button36.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button36.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button36.Location = new System.Drawing.Point(1165, 251);
@@ -574,6 +655,7 @@
             // button37
             // 
             this.button37.BackColor = System.Drawing.Color.Salmon;
+            this.button37.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button37.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button37.Location = new System.Drawing.Point(515, 251);
@@ -585,6 +667,7 @@
             // button38
             // 
             this.button38.BackColor = System.Drawing.Color.Salmon;
+            this.button38.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button38.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button38.Location = new System.Drawing.Point(715, 251);
@@ -596,6 +679,7 @@
             // button39
             // 
             this.button39.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button39.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button39.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button39.Location = new System.Drawing.Point(1015, 251);
@@ -607,6 +691,7 @@
             // button40
             // 
             this.button40.BackColor = System.Drawing.Color.Salmon;
+            this.button40.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button40.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button40.Location = new System.Drawing.Point(615, 251);
@@ -618,6 +703,7 @@
             // button41
             // 
             this.button41.BackColor = System.Drawing.Color.Salmon;
+            this.button41.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button41.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button41.Location = new System.Drawing.Point(815, 251);
@@ -629,6 +715,7 @@
             // button42
             // 
             this.button42.BackColor = System.Drawing.Color.LimeGreen;
+            this.button42.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button42.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button42.Location = new System.Drawing.Point(1115, 251);
@@ -640,6 +727,7 @@
             // button43
             // 
             this.button43.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button43.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button43.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button43.Location = new System.Drawing.Point(915, 251);
@@ -651,6 +739,7 @@
             // button44
             // 
             this.button44.BackColor = System.Drawing.Color.MediumPurple;
+            this.button44.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button44.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button44.Location = new System.Drawing.Point(1215, 251);
@@ -662,6 +751,7 @@
             // button45
             // 
             this.button45.BackColor = System.Drawing.Color.Salmon;
+            this.button45.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button45.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button45.Location = new System.Drawing.Point(515, 304);
@@ -673,6 +763,7 @@
             // button46
             // 
             this.button46.BackColor = System.Drawing.Color.Salmon;
+            this.button46.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button46.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button46.Location = new System.Drawing.Point(715, 304);
@@ -684,6 +775,7 @@
             // button47
             // 
             this.button47.BackColor = System.Drawing.Color.Salmon;
+            this.button47.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button47.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button47.Location = new System.Drawing.Point(615, 304);
@@ -695,6 +787,7 @@
             // button48
             // 
             this.button48.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button48.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button48.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button48.Location = new System.Drawing.Point(1015, 304);
@@ -706,6 +799,7 @@
             // button49
             // 
             this.button49.BackColor = System.Drawing.Color.Salmon;
+            this.button49.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button49.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button49.Location = new System.Drawing.Point(815, 304);
@@ -717,6 +811,7 @@
             // button50
             // 
             this.button50.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button50.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button50.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button50.Location = new System.Drawing.Point(915, 304);
@@ -728,6 +823,7 @@
             // button51
             // 
             this.button51.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button51.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button51.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button51.Location = new System.Drawing.Point(1115, 304);
@@ -739,6 +835,7 @@
             // button52
             // 
             this.button52.BackColor = System.Drawing.Color.MediumPurple;
+            this.button52.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button52.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button52.Location = new System.Drawing.Point(1215, 304);
@@ -750,6 +847,7 @@
             // button53
             // 
             this.button53.BackColor = System.Drawing.Color.Salmon;
+            this.button53.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button53.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button53.Location = new System.Drawing.Point(565, 304);
@@ -761,6 +859,7 @@
             // button54
             // 
             this.button54.BackColor = System.Drawing.Color.Salmon;
+            this.button54.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button54.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button54.Location = new System.Drawing.Point(765, 304);
@@ -772,6 +871,7 @@
             // button55
             // 
             this.button55.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button55.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button55.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button55.Location = new System.Drawing.Point(1065, 304);
@@ -783,6 +883,7 @@
             // button56
             // 
             this.button56.BackColor = System.Drawing.Color.Salmon;
+            this.button56.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button56.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button56.Location = new System.Drawing.Point(665, 304);
@@ -794,6 +895,7 @@
             // button57
             // 
             this.button57.BackColor = System.Drawing.Color.Salmon;
+            this.button57.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button57.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button57.Location = new System.Drawing.Point(865, 304);
@@ -805,6 +907,7 @@
             // button58
             // 
             this.button58.BackColor = System.Drawing.Color.LimeGreen;
+            this.button58.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button58.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button58.Location = new System.Drawing.Point(1165, 304);
@@ -816,6 +919,7 @@
             // button59
             // 
             this.button59.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button59.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button59.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button59.Location = new System.Drawing.Point(965, 304);
@@ -827,6 +931,7 @@
             // button61
             // 
             this.button61.BackColor = System.Drawing.Color.Salmon;
+            this.button61.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button61.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button61.Location = new System.Drawing.Point(515, 357);
@@ -838,6 +943,7 @@
             // button62
             // 
             this.button62.BackColor = System.Drawing.Color.Salmon;
+            this.button62.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button62.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button62.Location = new System.Drawing.Point(715, 357);
@@ -849,6 +955,7 @@
             // button63
             // 
             this.button63.BackColor = System.Drawing.Color.Salmon;
+            this.button63.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button63.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button63.Location = new System.Drawing.Point(615, 357);
@@ -860,6 +967,7 @@
             // button64
             // 
             this.button64.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button64.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button64.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button64.Location = new System.Drawing.Point(1015, 357);
@@ -871,6 +979,7 @@
             // button65
             // 
             this.button65.BackColor = System.Drawing.Color.Salmon;
+            this.button65.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button65.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button65.Location = new System.Drawing.Point(815, 357);
@@ -882,6 +991,7 @@
             // button66
             // 
             this.button66.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button66.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button66.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button66.Location = new System.Drawing.Point(915, 357);
@@ -893,6 +1003,7 @@
             // button67
             // 
             this.button67.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button67.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button67.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button67.Location = new System.Drawing.Point(1115, 357);
@@ -904,6 +1015,7 @@
             // button68
             // 
             this.button68.BackColor = System.Drawing.Color.MediumPurple;
+            this.button68.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button68.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button68.Location = new System.Drawing.Point(1215, 357);
@@ -915,6 +1027,7 @@
             // button69
             // 
             this.button69.BackColor = System.Drawing.Color.Salmon;
+            this.button69.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button69.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button69.Location = new System.Drawing.Point(565, 357);
@@ -926,6 +1039,7 @@
             // button70
             // 
             this.button70.BackColor = System.Drawing.Color.Salmon;
+            this.button70.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button70.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button70.Location = new System.Drawing.Point(765, 357);
@@ -937,6 +1051,7 @@
             // button71
             // 
             this.button71.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button71.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button71.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button71.Location = new System.Drawing.Point(1065, 357);
@@ -948,6 +1063,7 @@
             // button72
             // 
             this.button72.BackColor = System.Drawing.Color.Salmon;
+            this.button72.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button72.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button72.Location = new System.Drawing.Point(665, 357);
@@ -959,6 +1075,7 @@
             // button73
             // 
             this.button73.BackColor = System.Drawing.Color.Salmon;
+            this.button73.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button73.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button73.Location = new System.Drawing.Point(865, 357);
@@ -969,17 +1086,20 @@
             // 
             // button74
             // 
+            this.button74.BackColor = System.Drawing.Color.White;
+            this.button74.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button74.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button74.Location = new System.Drawing.Point(1165, 357);
             this.button74.Name = "button74";
             this.button74.Size = new System.Drawing.Size(51, 54);
             this.button74.TabIndex = 0;
-            this.button74.UseVisualStyleBackColor = true;
+            this.button74.UseVisualStyleBackColor = false;
             // 
             // button75
             // 
             this.button75.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button75.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button75.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button75.Location = new System.Drawing.Point(965, 357);
@@ -991,6 +1111,7 @@
             // button60
             // 
             this.button60.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button60.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button60.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button60.Location = new System.Drawing.Point(965, 145);
@@ -1003,6 +1124,7 @@
             // button76
             // 
             this.button76.BackColor = System.Drawing.Color.LimeGreen;
+            this.button76.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button76.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button76.Location = new System.Drawing.Point(1065, 145);
@@ -1015,6 +1137,7 @@
             // button77
             // 
             this.button77.BackColor = System.Drawing.Color.LimeGreen;
+            this.button77.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button77.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button77.Location = new System.Drawing.Point(1165, 145);
@@ -1027,6 +1150,7 @@
             // button78
             // 
             this.button78.BackColor = System.Drawing.Color.LimeGreen;
+            this.button78.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button78.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button78.Location = new System.Drawing.Point(1015, 145);
@@ -1039,6 +1163,7 @@
             // button79
             // 
             this.button79.BackColor = System.Drawing.Color.LimeGreen;
+            this.button79.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button79.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button79.Location = new System.Drawing.Point(1115, 145);
@@ -1051,6 +1176,7 @@
             // button80
             // 
             this.button80.BackColor = System.Drawing.Color.MediumPurple;
+            this.button80.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button80.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button80.Location = new System.Drawing.Point(1215, 145);
@@ -1063,6 +1189,7 @@
             // button81
             // 
             this.button81.BackColor = System.Drawing.Color.LimeGreen;
+            this.button81.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button81.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button81.Location = new System.Drawing.Point(965, 92);
@@ -1075,6 +1202,7 @@
             // button82
             // 
             this.button82.BackColor = System.Drawing.Color.LimeGreen;
+            this.button82.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button82.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button82.Location = new System.Drawing.Point(1065, 92);
@@ -1087,6 +1215,7 @@
             // button83
             // 
             this.button83.BackColor = System.Drawing.Color.LimeGreen;
+            this.button83.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button83.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button83.Location = new System.Drawing.Point(1165, 92);
@@ -1099,6 +1228,7 @@
             // button84
             // 
             this.button84.BackColor = System.Drawing.Color.LimeGreen;
+            this.button84.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button84.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button84.Location = new System.Drawing.Point(1015, 92);
@@ -1111,6 +1241,7 @@
             // button85
             // 
             this.button85.BackColor = System.Drawing.Color.LimeGreen;
+            this.button85.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button85.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button85.Location = new System.Drawing.Point(1115, 92);
@@ -1123,6 +1254,7 @@
             // button86
             // 
             this.button86.BackColor = System.Drawing.Color.MediumPurple;
+            this.button86.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button86.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button86.Location = new System.Drawing.Point(1215, 92);
@@ -1135,6 +1267,7 @@
             // button87
             // 
             this.button87.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button87.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button87.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button87.Location = new System.Drawing.Point(365, 39);
@@ -1143,10 +1276,12 @@
             this.button87.TabIndex = 0;
             this.button87.Text = "H";
             this.button87.UseVisualStyleBackColor = false;
+            this.button87.Click += new System.EventHandler(this.button87_Click);
             // 
             // button88
             // 
             this.button88.BackColor = System.Drawing.Color.MediumPurple;
+            this.button88.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button88.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button88.Location = new System.Drawing.Point(1215, 39);
@@ -1159,6 +1294,7 @@
             // button89
             // 
             this.button89.BackColor = System.Drawing.Color.Goldenrod;
+            this.button89.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button89.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button89.Location = new System.Drawing.Point(515, 481);
@@ -1170,6 +1306,7 @@
             // button90
             // 
             this.button90.BackColor = System.Drawing.Color.Pink;
+            this.button90.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button90.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button90.Location = new System.Drawing.Point(515, 534);
@@ -1181,6 +1318,7 @@
             // button91
             // 
             this.button91.BackColor = System.Drawing.Color.Goldenrod;
+            this.button91.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button91.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button91.Location = new System.Drawing.Point(715, 481);
@@ -1192,6 +1330,7 @@
             // button92
             // 
             this.button92.BackColor = System.Drawing.Color.Pink;
+            this.button92.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button92.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button92.Location = new System.Drawing.Point(715, 534);
@@ -1203,6 +1342,7 @@
             // button93
             // 
             this.button93.BackColor = System.Drawing.Color.Goldenrod;
+            this.button93.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button93.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button93.Location = new System.Drawing.Point(615, 481);
@@ -1214,6 +1354,7 @@
             // button94
             // 
             this.button94.BackColor = System.Drawing.Color.Pink;
+            this.button94.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button94.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button94.Location = new System.Drawing.Point(615, 534);
@@ -1225,6 +1366,7 @@
             // button95
             // 
             this.button95.BackColor = System.Drawing.Color.Goldenrod;
+            this.button95.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button95.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button95.Location = new System.Drawing.Point(1015, 481);
@@ -1236,6 +1378,7 @@
             // button96
             // 
             this.button96.BackColor = System.Drawing.Color.Pink;
+            this.button96.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button96.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button96.Location = new System.Drawing.Point(1015, 534);
@@ -1247,6 +1390,7 @@
             // button97
             // 
             this.button97.BackColor = System.Drawing.Color.Goldenrod;
+            this.button97.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button97.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button97.Location = new System.Drawing.Point(815, 481);
@@ -1258,6 +1402,7 @@
             // button98
             // 
             this.button98.BackColor = System.Drawing.Color.Pink;
+            this.button98.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button98.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button98.Location = new System.Drawing.Point(815, 534);
@@ -1269,6 +1414,7 @@
             // button99
             // 
             this.button99.BackColor = System.Drawing.Color.Goldenrod;
+            this.button99.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button99.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button99.Location = new System.Drawing.Point(915, 481);
@@ -1280,6 +1426,7 @@
             // button100
             // 
             this.button100.BackColor = System.Drawing.Color.Pink;
+            this.button100.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button100.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button100.Location = new System.Drawing.Point(915, 534);
@@ -1291,6 +1438,7 @@
             // button101
             // 
             this.button101.BackColor = System.Drawing.Color.Goldenrod;
+            this.button101.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button101.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button101.Location = new System.Drawing.Point(1115, 481);
@@ -1302,6 +1450,7 @@
             // button102
             // 
             this.button102.BackColor = System.Drawing.Color.Pink;
+            this.button102.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button102.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button102.Location = new System.Drawing.Point(1115, 534);
@@ -1313,6 +1462,7 @@
             // button103
             // 
             this.button103.BackColor = System.Drawing.Color.Goldenrod;
+            this.button103.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button103.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button103.Location = new System.Drawing.Point(1215, 481);
@@ -1324,6 +1474,7 @@
             // button104
             // 
             this.button104.BackColor = System.Drawing.Color.Pink;
+            this.button104.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button104.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button104.Location = new System.Drawing.Point(1215, 534);
@@ -1335,6 +1486,7 @@
             // button105
             // 
             this.button105.BackColor = System.Drawing.Color.Goldenrod;
+            this.button105.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button105.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button105.Location = new System.Drawing.Point(565, 481);
@@ -1346,6 +1498,7 @@
             // button106
             // 
             this.button106.BackColor = System.Drawing.Color.Pink;
+            this.button106.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button106.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button106.Location = new System.Drawing.Point(565, 534);
@@ -1357,6 +1510,7 @@
             // button107
             // 
             this.button107.BackColor = System.Drawing.Color.Goldenrod;
+            this.button107.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button107.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button107.Location = new System.Drawing.Point(765, 481);
@@ -1368,6 +1522,7 @@
             // button108
             // 
             this.button108.BackColor = System.Drawing.Color.Pink;
+            this.button108.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button108.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button108.Location = new System.Drawing.Point(765, 534);
@@ -1379,6 +1534,7 @@
             // button109
             // 
             this.button109.BackColor = System.Drawing.Color.Goldenrod;
+            this.button109.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button109.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button109.Location = new System.Drawing.Point(1065, 481);
@@ -1390,6 +1546,7 @@
             // button110
             // 
             this.button110.BackColor = System.Drawing.Color.Pink;
+            this.button110.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button110.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button110.Location = new System.Drawing.Point(1065, 534);
@@ -1401,6 +1558,7 @@
             // button111
             // 
             this.button111.BackColor = System.Drawing.Color.Goldenrod;
+            this.button111.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button111.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button111.Location = new System.Drawing.Point(665, 481);
@@ -1412,6 +1570,7 @@
             // button112
             // 
             this.button112.BackColor = System.Drawing.Color.Pink;
+            this.button112.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button112.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button112.Location = new System.Drawing.Point(665, 534);
@@ -1423,6 +1582,7 @@
             // button113
             // 
             this.button113.BackColor = System.Drawing.Color.Goldenrod;
+            this.button113.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button113.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button113.Location = new System.Drawing.Point(865, 481);
@@ -1434,6 +1594,7 @@
             // button114
             // 
             this.button114.BackColor = System.Drawing.Color.Pink;
+            this.button114.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button114.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button114.Location = new System.Drawing.Point(865, 534);
@@ -1445,6 +1606,7 @@
             // button115
             // 
             this.button115.BackColor = System.Drawing.Color.Goldenrod;
+            this.button115.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button115.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button115.Location = new System.Drawing.Point(1165, 481);
@@ -1456,6 +1618,7 @@
             // button116
             // 
             this.button116.BackColor = System.Drawing.Color.Pink;
+            this.button116.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button116.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button116.Location = new System.Drawing.Point(1165, 534);
@@ -1467,6 +1630,7 @@
             // button117
             // 
             this.button117.BackColor = System.Drawing.Color.Goldenrod;
+            this.button117.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button117.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button117.Location = new System.Drawing.Point(965, 481);
@@ -1478,6 +1642,7 @@
             // button118
             // 
             this.button118.BackColor = System.Drawing.Color.Pink;
+            this.button118.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button118.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button118.Location = new System.Drawing.Point(965, 534);
@@ -1495,6 +1660,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(173, 150);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 26);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Theme";
             // 
             // radioButton2
             // 
@@ -1519,16 +1695,6 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Light";
             this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 26);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Theme";
             // 
             // label2
             // 
@@ -1594,12 +1760,537 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "SaanSoft\r\n2019";
             // 
+            // lbl2
+            // 
+            this.lbl2.AutoSize = true;
+            this.lbl2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl2.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.Location = new System.Drawing.Point(70, 700);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(110, 18);
+            this.lbl2.TabIndex = 1;
+            this.lbl2.Text = "Atomic Number:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(290, 700);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(176, 25);
+            this.textBox1.TabIndex = 2;
+            // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl1.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.Location = new System.Drawing.Point(128, 662);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(49, 18);
+            this.lbl1.TabIndex = 1;
+            this.lbl1.Text = "Name:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(291, 661);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(176, 25);
+            this.textBox2.TabIndex = 2;
+            // 
+            // lbl3
+            // 
+            this.lbl3.AutoSize = true;
+            this.lbl3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl3.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3.Location = new System.Drawing.Point(127, 740);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(51, 18);
+            this.lbl3.TabIndex = 1;
+            this.lbl3.Text = "Group:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(290, 740);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(176, 25);
+            this.textBox3.TabIndex = 2;
+            // 
+            // lbl4
+            // 
+            this.lbl4.AutoSize = true;
+            this.lbl4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl4.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl4.Location = new System.Drawing.Point(125, 783);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(53, 18);
+            this.lbl4.TabIndex = 1;
+            this.lbl4.Text = "Period:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(290, 780);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(176, 25);
+            this.textBox4.TabIndex = 2;
+            // 
+            // lbl5
+            // 
+            this.lbl5.AutoSize = true;
+            this.lbl5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl5.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5.Location = new System.Drawing.Point(26, 824);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(152, 18);
+            this.lbl5.TabIndex = 1;
+            this.lbl5.Text = "Electron Configuration:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(290, 822);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(176, 25);
+            this.textBox5.TabIndex = 2;
+            // 
+            // lbl7
+            // 
+            this.lbl7.AutoSize = true;
+            this.lbl7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl7.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl7.Location = new System.Drawing.Point(550, 702);
+            this.lbl7.Name = "lbl7";
+            this.lbl7.Size = new System.Drawing.Size(95, 18);
+            this.lbl7.TabIndex = 1;
+            this.lbl7.Text = "Melting Point:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(739, 702);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(176, 25);
+            this.textBox6.TabIndex = 2;
+            // 
+            // lbl6
+            // 
+            this.lbl6.AutoSize = true;
+            this.lbl6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl6.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6.Location = new System.Drawing.Point(552, 667);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(49, 18);
+            this.lbl6.TabIndex = 1;
+            this.lbl6.Text = "Phase:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(740, 663);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(176, 25);
+            this.textBox7.TabIndex = 2;
+            // 
+            // lbl8
+            // 
+            this.lbl8.AutoSize = true;
+            this.lbl8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl8.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl8.Location = new System.Drawing.Point(553, 742);
+            this.lbl8.Name = "lbl8";
+            this.lbl8.Size = new System.Drawing.Size(92, 18);
+            this.lbl8.TabIndex = 1;
+            this.lbl8.Text = "Boiling Point:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(739, 742);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(176, 25);
+            this.textBox8.TabIndex = 2;
+            // 
+            // lbl9
+            // 
+            this.lbl9.AutoSize = true;
+            this.lbl9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl9.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl9.Location = new System.Drawing.Point(585, 782);
+            this.lbl9.Name = "lbl9";
+            this.lbl9.Size = new System.Drawing.Size(59, 18);
+            this.lbl9.TabIndex = 1;
+            this.lbl9.Text = "Density:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox9.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(739, 782);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.ReadOnly = true;
+            this.textBox9.Size = new System.Drawing.Size(176, 25);
+            this.textBox9.TabIndex = 2;
+            // 
+            // lbl10
+            // 
+            this.lbl10.AutoSize = true;
+            this.lbl10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl10.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl10.Location = new System.Drawing.Point(562, 824);
+            this.lbl10.Name = "lbl10";
+            this.lbl10.Size = new System.Drawing.Size(84, 18);
+            this.lbl10.TabIndex = 1;
+            this.lbl10.Text = "Triple Point:";
+            // 
+            // textBox10
+            // 
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox10.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(739, 824);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(176, 25);
+            this.textBox10.TabIndex = 2;
+            // 
+            // lbl12
+            // 
+            this.lbl12.AutoSize = true;
+            this.lbl12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl12.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl12.Location = new System.Drawing.Point(1033, 700);
+            this.lbl12.Name = "lbl12";
+            this.lbl12.Size = new System.Drawing.Size(117, 18);
+            this.lbl12.TabIndex = 1;
+            this.lbl12.Text = "Electronegativity:";
+            // 
+            // textBox11
+            // 
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox11.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(1250, 700);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
+            this.textBox11.Size = new System.Drawing.Size(176, 25);
+            this.textBox11.TabIndex = 2;
+            // 
+            // lbl11
+            // 
+            this.lbl11.AutoSize = true;
+            this.lbl11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl11.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl11.Location = new System.Drawing.Point(1033, 664);
+            this.lbl11.Name = "lbl11";
+            this.lbl11.Size = new System.Drawing.Size(123, 18);
+            this.lbl11.TabIndex = 1;
+            this.lbl11.Text = "Oxidation State(s):";
+            // 
+            // textBox12
+            // 
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox12.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(1251, 661);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(176, 25);
+            this.textBox12.TabIndex = 2;
+            // 
+            // lbl13
+            // 
+            this.lbl13.AutoSize = true;
+            this.lbl13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl13.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl13.Location = new System.Drawing.Point(1045, 740);
+            this.lbl13.Name = "lbl13";
+            this.lbl13.Size = new System.Drawing.Size(107, 18);
+            this.lbl13.TabIndex = 1;
+            this.lbl13.Text = "Speed of Sound:";
+            // 
+            // textBox13
+            // 
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox13.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(1250, 740);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.ReadOnly = true;
+            this.textBox13.Size = new System.Drawing.Size(176, 25);
+            this.textBox13.TabIndex = 2;
+            // 
+            // lbl14
+            // 
+            this.lbl14.AutoSize = true;
+            this.lbl14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl14.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl14.Location = new System.Drawing.Point(1077, 780);
+            this.lbl14.Name = "lbl14";
+            this.lbl14.Size = new System.Drawing.Size(73, 18);
+            this.lbl14.TabIndex = 1;
+            this.lbl14.Text = "Discovery:";
+            // 
+            // textBox14
+            // 
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox14.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(1250, 780);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.ReadOnly = true;
+            this.textBox14.Size = new System.Drawing.Size(176, 25);
+            this.textBox14.TabIndex = 2;
+            // 
+            // lbl15
+            // 
+            this.lbl15.AutoSize = true;
+            this.lbl15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl15.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl15.Location = new System.Drawing.Point(1074, 820);
+            this.lbl15.Name = "lbl15";
+            this.lbl15.Size = new System.Drawing.Size(76, 18);
+            this.lbl15.TabIndex = 1;
+            this.lbl15.Text = "Named By:";
+            // 
+            // textBox15
+            // 
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox15.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Location = new System.Drawing.Point(1250, 822);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(176, 25);
+            this.textBox15.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(221, 658);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(18, 26);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "-";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(221, 698);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(18, 26);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "-";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(221, 738);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(18, 26);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "-";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label8.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(221, 777);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(18, 26);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "-";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label9.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(221, 818);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(18, 26);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "-";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label10.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(698, 661);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(18, 26);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "-";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label11.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(698, 700);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(18, 26);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "-";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label12.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(698, 739);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(18, 26);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "-";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label13.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(698, 780);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(18, 26);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "-";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label14.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(698, 820);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(18, 26);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "-";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label15.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(1210, 660);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(18, 26);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "-";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label16.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(1210, 696);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(18, 26);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "-";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label17.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(1210, 736);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(18, 26);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "-";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label18.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(1210, 776);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(18, 26);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "-";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label19.Font = new System.Drawing.Font("Open Sans Extrabold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(1210, 819);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(18, 26);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "-";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1674, 955);
+            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.lbl15);
+            this.Controls.Add(this.lbl10);
+            this.Controls.Add(this.lbl5);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.lbl14);
+            this.Controls.Add(this.lbl9);
+            this.Controls.Add(this.lbl4);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.lbl13);
+            this.Controls.Add(this.lbl8);
+            this.Controls.Add(this.lbl3);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.lbl11);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.lbl12);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.lbl7);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbl2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
@@ -1867,6 +2558,51 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label lbl7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label lbl8;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label lbl9;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label lbl10;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label lbl12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label lbl11;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label lbl13;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label lbl14;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label lbl15;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
     }
 }
 

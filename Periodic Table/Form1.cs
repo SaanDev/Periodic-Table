@@ -61,6 +61,7 @@ namespace Periodic_Table
                 lbl13.ForeColor = black;
                 lbl14.ForeColor = black;
                 lbl15.ForeColor = black;
+                lbl16.ForeColor = black;
             }
             else if (radioButton2.Checked)
             {
@@ -88,6 +89,7 @@ namespace Periodic_Table
                 lbl13.ForeColor = white;
                 lbl14.ForeColor = white;
                 lbl15.ForeColor = white;
+                lbl16.ForeColor = white;
             }
         }
         private void language_languageChanged(object sender, EventArgs e)
@@ -116,6 +118,7 @@ namespace Periodic_Table
                 lbl13.Text = "Speed of Sound:";
                 lbl14.Text = "Descovery:";
                 lbl15.Text = "Named By:";
+                lbl16.Text = "Atomic Mass";
             }
             else if (radioButton4.Checked)
             {
@@ -141,12 +144,13 @@ namespace Periodic_Table
                 lbl13.Text = "ශබ්දයේ වේගය:";
                 lbl14.Text = "සොයාගැනීම:";
                 lbl15.Text = "නම් කිරීම:";
+                lbl16.Text = "පරමාණුක ස්කන්ධය";
             }
         }
         System.Data.SqlClient.SqlConnection con;
         DataSet ds1;
         System.Data.SqlClient.SqlDataAdapter da;
-        private void button87_Click(object sender, EventArgs e)
+        private void btnH_Click(object sender, EventArgs e)
         {
             con = new System.Data.SqlClient.SqlConnection();
             ds1 = new DataSet();
@@ -155,13 +159,13 @@ namespace Periodic_Table
             string sql = "SELECT * From elements";
             da = new System.Data.SqlClient.SqlDataAdapter(sql, con);
             da.Fill(ds1, "elements");
-            NavigateRecords();
+            NavigateRecordsH();
             //MessageBox.Show("Database Connected");
             con.Close();
             //MessageBox.Show("Database disconnected");
             con.Dispose();
         }
-        private void NavigateRecords()
+        private void NavigateRecordsH()
         {
             DataRow dRow = ds1.Tables["elements"].Rows[0];
             txtname.Text = dRow.ItemArray.GetValue(0).ToString();
@@ -179,11 +183,84 @@ namespace Periodic_Table
             txtspdoflight.Text = dRow.ItemArray.GetValue(12).ToString();
             txtdescovery.Text = dRow.ItemArray.GetValue(13).ToString();
             txtnamedby.Text = dRow.ItemArray.GetValue(14).ToString();
+            txtatmmass.Text = dRow.ItemArray.GetValue(15).ToString();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnHe_Click(object sender, EventArgs e)
+        {
+            con = new System.Data.SqlClient.SqlConnection();
+            ds1 = new DataSet();
+            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\elements.mdf;Integrated Security=True";
+            con.Open();
+            string sql = "SELECT * From elements";
+            da = new System.Data.SqlClient.SqlDataAdapter(sql, con);
+            da.Fill(ds1, "elements");
+            NavigateRecordsHe();
+            //MessageBox.Show("Database Connected");
+            con.Close();
+            //MessageBox.Show("Database disconnected");
+            con.Dispose();
+        }
+        private void NavigateRecordsHe()
+        {
+            DataRow dRow = ds1.Tables["elements"].Rows[1];
+            txtname.Text = dRow.ItemArray.GetValue(0).ToString();
+            txtatmnum.Text = dRow.ItemArray.GetValue(1).ToString();
+            txtgroup.Text = dRow.ItemArray.GetValue(2).ToString();
+            txtperiod.Text = dRow.ItemArray.GetValue(3).ToString();
+            txtelecconfig.Text = dRow.ItemArray.GetValue(4).ToString();
+            txtphase.Text = dRow.ItemArray.GetValue(5).ToString();
+            txtmelting.Text = dRow.ItemArray.GetValue(6).ToString();
+            txtboiling.Text = dRow.ItemArray.GetValue(7).ToString();
+            txtdensity.Text = dRow.ItemArray.GetValue(8).ToString();
+            txttriple.Text = dRow.ItemArray.GetValue(9).ToString();
+            txtoxidation.Text = dRow.ItemArray.GetValue(10).ToString();
+            txtelecneg.Text = dRow.ItemArray.GetValue(11).ToString();
+            txtspdoflight.Text = dRow.ItemArray.GetValue(12).ToString();
+            txtdescovery.Text = dRow.ItemArray.GetValue(13).ToString();
+            txtnamedby.Text = dRow.ItemArray.GetValue(14).ToString();
+            txtatmmass.Text = dRow.ItemArray.GetValue(15).ToString();
+        }
+
+        private void btnLi_Click(object sender, EventArgs e)
+        {
+            con = new System.Data.SqlClient.SqlConnection();
+            ds1 = new DataSet();
+            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\elements.mdf;Integrated Security=True";
+            con.Open();
+            string sql = "SELECT * From elements";
+            da = new System.Data.SqlClient.SqlDataAdapter(sql, con);
+            da.Fill(ds1, "elements");
+            NavigateRecordsLi();
+            //MessageBox.Show("Database Connected");
+            con.Close();
+            //MessageBox.Show("Database disconnected");
+            con.Dispose();
+        }
+        private void NavigateRecordsLi()
+        {
+            DataRow dRow = ds1.Tables["elements"].Rows[2];
+            txtname.Text = dRow.ItemArray.GetValue(0).ToString();
+            txtatmnum.Text = dRow.ItemArray.GetValue(1).ToString();
+            txtgroup.Text = dRow.ItemArray.GetValue(2).ToString();
+            txtperiod.Text = dRow.ItemArray.GetValue(3).ToString();
+            txtelecconfig.Text = dRow.ItemArray.GetValue(4).ToString();
+            txtphase.Text = dRow.ItemArray.GetValue(5).ToString();
+            txtmelting.Text = dRow.ItemArray.GetValue(6).ToString();
+            txtboiling.Text = dRow.ItemArray.GetValue(7).ToString();
+            txtdensity.Text = dRow.ItemArray.GetValue(8).ToString();
+            txttriple.Text = dRow.ItemArray.GetValue(9).ToString();
+            txtoxidation.Text = dRow.ItemArray.GetValue(10).ToString();
+            txtelecneg.Text = dRow.ItemArray.GetValue(11).ToString();
+            txtspdoflight.Text = dRow.ItemArray.GetValue(12).ToString();
+            txtdescovery.Text = dRow.ItemArray.GetValue(13).ToString();
+            txtnamedby.Text = dRow.ItemArray.GetValue(14).ToString();
+            txtatmmass.Text = dRow.ItemArray.GetValue(15).ToString();
         }
     }
 }

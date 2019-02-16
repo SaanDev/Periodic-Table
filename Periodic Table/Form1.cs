@@ -204,7 +204,7 @@ namespace Periodic_Table
             //MessageBox.Show("Database Connected");
             con.Close();
             //MessageBox.Show("Database disconnected");
-            con.Dispose();
+            //con.Dispose();
         }
         private void NavigateRecordsHe()
         {
@@ -240,27 +240,72 @@ namespace Periodic_Table
             //MessageBox.Show("Database Connected");
             con.Close();
             //MessageBox.Show("Database disconnected");
-            con.Dispose();
+            //con.Dispose();
         }
         private void NavigateRecordsLi()
         {
-            DataRow dRow = ds1.Tables["elements"].Rows[2];
-            txtname.Text = dRow.ItemArray.GetValue(0).ToString();
-            txtatmnum.Text = dRow.ItemArray.GetValue(1).ToString();
-            txtgroup.Text = dRow.ItemArray.GetValue(2).ToString();
-            txtperiod.Text = dRow.ItemArray.GetValue(3).ToString();
-            txtelecconfig.Text = dRow.ItemArray.GetValue(4).ToString();
-            txtphase.Text = dRow.ItemArray.GetValue(5).ToString();
-            txtmelting.Text = dRow.ItemArray.GetValue(6).ToString();
-            txtboiling.Text = dRow.ItemArray.GetValue(7).ToString();
-            txtdensity.Text = dRow.ItemArray.GetValue(8).ToString();
-            txttriple.Text = dRow.ItemArray.GetValue(9).ToString();
-            txtoxidation.Text = dRow.ItemArray.GetValue(10).ToString();
-            txtelecneg.Text = dRow.ItemArray.GetValue(11).ToString();
-            txtspdoflight.Text = dRow.ItemArray.GetValue(12).ToString();
-            txtdescovery.Text = dRow.ItemArray.GetValue(13).ToString();
-            txtnamedby.Text = dRow.ItemArray.GetValue(14).ToString();
-            txtatmmass.Text = dRow.ItemArray.GetValue(15).ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtatmmass.Clear();
+            txtatmnum.Clear();
+            txtboiling.Clear();
+            txtdensity.Clear();
+            txtdescovery.Clear();
+            txtelecconfig.Clear();
+            txtelecneg.Clear();
+            txtgroup.Clear();
+            txtmelting.Clear();
+            txtname.Clear();
+            txtnamedby.Clear();
+            txtoxidation.Clear();
+            txtperiod.Clear();
+            txtphase.Clear();
+            txtspdoflight.Clear();
+            txttriple.Clear();
+           
+        }
+        int MaxRows = 0;
+        int inc = 0;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            con = new System.Data.SqlClient.SqlConnection();
+            ds1 = new DataSet();
+            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\elements.mdf;Integrated Security=True";
+            con.Open();
+            string sql = "SELECT * From elements";
+            da = new System.Data.SqlClient.SqlDataAdapter(sql, con);
+            da.Fill(ds1, "elements");
+            NavigateRecordsLi();
+            //MessageBox.Show("Database Connected");
+            con.Close();
+            //MessageBox.Show("Database disconnected");
+            //con.Dispose();
+            System.Data.SqlClient.SqlCommandBuilder cb;
+            cb = new System.Data.SqlClient.SqlCommandBuilder(da);
+            DataRow dRow = ds1.Tables["elements"].NewRow();
+            dRow[0] = txtatmnum.Text;
+            dRow[1] = txtname.Text;
+            dRow[2] = txtgroup.Text;
+            dRow[3] = txtperiod.Text;
+            dRow[4] = txtelecconfig.Text;
+            dRow[5] = txtphase.Text;
+            dRow[6] = txtmelting.Text;
+            dRow[7] = txtboiling.Text;
+            dRow[8] = txtdensity.Text;
+            dRow[9] = txttriple.Text;
+            dRow[10] = txtoxidation.Text;
+            dRow[11] = txtelecneg.Text;
+            dRow[12] = txtspdoflight.Text;
+            dRow[13] = txtdescovery.Text;
+            dRow[14] = txtnamedby.Text;
+            dRow[15] = txtatmmass.Text;
+            ds1.Tables["elements"].Rows.Add(dRow);
+            MaxRows = MaxRows + 1;
+            inc = MaxRows - 1;
+            da.Update(ds1, "elements");
+            MessageBox.Show("Element Added");
         }
     }
 }

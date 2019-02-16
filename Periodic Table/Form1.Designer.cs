@@ -1899,7 +1899,6 @@
             this.txtatmnum.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtatmnum.Location = new System.Drawing.Point(290, 735);
             this.txtatmnum.Name = "txtatmnum";
-            this.txtatmnum.ReadOnly = true;
             this.txtatmnum.Size = new System.Drawing.Size(176, 25);
             this.txtatmnum.TabIndex = 2;
             // 
@@ -1920,7 +1919,6 @@
             this.txtname.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtname.Location = new System.Drawing.Point(291, 696);
             this.txtname.Name = "txtname";
-            this.txtname.ReadOnly = true;
             this.txtname.Size = new System.Drawing.Size(176, 25);
             this.txtname.TabIndex = 2;
             // 
@@ -1941,7 +1939,6 @@
             this.txtgroup.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtgroup.Location = new System.Drawing.Point(290, 775);
             this.txtgroup.Name = "txtgroup";
-            this.txtgroup.ReadOnly = true;
             this.txtgroup.Size = new System.Drawing.Size(176, 25);
             this.txtgroup.TabIndex = 2;
             // 
@@ -1962,7 +1959,6 @@
             this.txtperiod.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtperiod.Location = new System.Drawing.Point(290, 815);
             this.txtperiod.Name = "txtperiod";
-            this.txtperiod.ReadOnly = true;
             this.txtperiod.Size = new System.Drawing.Size(176, 25);
             this.txtperiod.TabIndex = 2;
             // 
@@ -1983,7 +1979,6 @@
             this.txtelecconfig.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtelecconfig.Location = new System.Drawing.Point(765, 642);
             this.txtelecconfig.Name = "txtelecconfig";
-            this.txtelecconfig.ReadOnly = true;
             this.txtelecconfig.Size = new System.Drawing.Size(456, 25);
             this.txtelecconfig.TabIndex = 2;
             // 
@@ -2004,7 +1999,6 @@
             this.txtmelting.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmelting.Location = new System.Drawing.Point(739, 737);
             this.txtmelting.Name = "txtmelting";
-            this.txtmelting.ReadOnly = true;
             this.txtmelting.Size = new System.Drawing.Size(176, 25);
             this.txtmelting.TabIndex = 2;
             // 
@@ -2025,7 +2019,6 @@
             this.txtphase.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtphase.Location = new System.Drawing.Point(740, 698);
             this.txtphase.Name = "txtphase";
-            this.txtphase.ReadOnly = true;
             this.txtphase.Size = new System.Drawing.Size(176, 25);
             this.txtphase.TabIndex = 2;
             // 
@@ -2046,7 +2039,6 @@
             this.txtboiling.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboiling.Location = new System.Drawing.Point(739, 777);
             this.txtboiling.Name = "txtboiling";
-            this.txtboiling.ReadOnly = true;
             this.txtboiling.Size = new System.Drawing.Size(176, 25);
             this.txtboiling.TabIndex = 2;
             // 
@@ -2067,7 +2059,6 @@
             this.txtdensity.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdensity.Location = new System.Drawing.Point(739, 817);
             this.txtdensity.Name = "txtdensity";
-            this.txtdensity.ReadOnly = true;
             this.txtdensity.Size = new System.Drawing.Size(176, 25);
             this.txtdensity.TabIndex = 2;
             // 
@@ -2088,7 +2079,6 @@
             this.txttriple.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttriple.Location = new System.Drawing.Point(739, 859);
             this.txttriple.Name = "txttriple";
-            this.txttriple.ReadOnly = true;
             this.txttriple.Size = new System.Drawing.Size(176, 25);
             this.txttriple.TabIndex = 2;
             // 
@@ -2109,7 +2099,6 @@
             this.txtelecneg.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtelecneg.Location = new System.Drawing.Point(1250, 735);
             this.txtelecneg.Name = "txtelecneg";
-            this.txtelecneg.ReadOnly = true;
             this.txtelecneg.Size = new System.Drawing.Size(176, 25);
             this.txtelecneg.TabIndex = 2;
             // 
@@ -2130,7 +2119,6 @@
             this.txtoxidation.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtoxidation.Location = new System.Drawing.Point(1251, 696);
             this.txtoxidation.Name = "txtoxidation";
-            this.txtoxidation.ReadOnly = true;
             this.txtoxidation.Size = new System.Drawing.Size(176, 25);
             this.txtoxidation.TabIndex = 2;
             // 
@@ -2151,7 +2139,6 @@
             this.txtspdoflight.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtspdoflight.Location = new System.Drawing.Point(1250, 775);
             this.txtspdoflight.Name = "txtspdoflight";
-            this.txtspdoflight.ReadOnly = true;
             this.txtspdoflight.Size = new System.Drawing.Size(176, 25);
             this.txtspdoflight.TabIndex = 2;
             // 
@@ -2172,7 +2159,6 @@
             this.txtdescovery.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdescovery.Location = new System.Drawing.Point(1250, 815);
             this.txtdescovery.Name = "txtdescovery";
-            this.txtdescovery.ReadOnly = true;
             this.txtdescovery.Size = new System.Drawing.Size(176, 25);
             this.txtdescovery.TabIndex = 2;
             // 
@@ -2193,7 +2179,6 @@
             this.txtnamedby.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnamedby.Location = new System.Drawing.Point(1250, 857);
             this.txtnamedby.Name = "txtnamedby";
-            this.txtnamedby.ReadOnly = true;
             this.txtnamedby.Size = new System.Drawing.Size(176, 25);
             this.txtnamedby.TabIndex = 2;
             // 
@@ -2390,7 +2375,6 @@
             this.txtatmmass.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtatmmass.Location = new System.Drawing.Point(290, 859);
             this.txtatmmass.Name = "txtatmmass";
-            this.txtatmmass.ReadOnly = true;
             this.txtatmmass.Size = new System.Drawing.Size(176, 25);
             this.txtatmmass.TabIndex = 2;
             // 
@@ -2399,7 +2383,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1674, 955);
+            this.ClientSize = new System.Drawing.Size(1674, 967);
             this.Controls.Add(this.txtnamedby);
             this.Controls.Add(this.txttriple);
             this.Controls.Add(this.txtelecconfig);

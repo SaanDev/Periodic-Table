@@ -24,16 +24,10 @@ namespace Periodic_Table
             radioButton4.CheckedChanged += new EventHandler(language_languageChanged);
 
         }
-        System.Data.SqlClient.SqlConnection con;
+       
         private void Form1_Load(object sender, EventArgs e)
         {
-            con = new System.Data.SqlClient.SqlConnection();
-            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\elements.mdf;Integrated Security=True";
-            con.Open();
-            //MessageBox.Show("Database Connected");
-            con.Close();
-            //MessageBox.Show("Database disconnected");
-            con.Dispose();
+           
         }
         Color dark = Color.FromArgb(64, 64, 64);
         Color light = Color.FromArgb(245, 245, 245);
@@ -149,10 +143,42 @@ namespace Periodic_Table
                 lbl15.Text = "නම් කිරීම:";
             }
         }
-
+        System.Data.SqlClient.SqlConnection con;
+        DataSet ds1;
+        System.Data.SqlClient.SqlDataAdapter da;
         private void button87_Click(object sender, EventArgs e)
         {
-            textBox2.Text = ("sahan");
+            con = new System.Data.SqlClient.SqlConnection();
+            ds1 = new DataSet();
+            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\elements.mdf;Integrated Security=True";
+            con.Open();
+            string sql = "SELECT * From elements";
+            da = new System.Data.SqlClient.SqlDataAdapter(sql, con);
+            da.Fill(ds1, "elements");
+            NavigateRecords();
+            //MessageBox.Show("Database Connected");
+            con.Close();
+            //MessageBox.Show("Database disconnected");
+            con.Dispose();
+        }
+        private void NavigateRecords()
+        {
+            DataRow dRow = ds1.Tables["elements"].Rows[0];
+            txtname.Text = dRow.ItemArray.GetValue(0).ToString();
+            txtatmnum.Text = dRow.ItemArray.GetValue(1).ToString();
+            txtgroup.Text = dRow.ItemArray.GetValue(2).ToString();
+            txtperiod.Text = dRow.ItemArray.GetValue(3).ToString();
+            txtelecconfig.Text = dRow.ItemArray.GetValue(4).ToString();
+            txtphase.Text = dRow.ItemArray.GetValue(5).ToString();
+            txtmelting.Text = dRow.ItemArray.GetValue(6).ToString();
+            txtboiling.Text = dRow.ItemArray.GetValue(7).ToString();
+            txtdensity.Text = dRow.ItemArray.GetValue(8).ToString();
+            txttriple.Text = dRow.ItemArray.GetValue(9).ToString();
+            txtoxidation.Text = dRow.ItemArray.GetValue(10).ToString();
+            txtelecneg.Text = dRow.ItemArray.GetValue(11).ToString();
+            txtspdoflight.Text = dRow.ItemArray.GetValue(12).ToString();
+            txtdescovery.Text = dRow.ItemArray.GetValue(13).ToString();
+            txtnamedby.Text = dRow.ItemArray.GetValue(14).ToString();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

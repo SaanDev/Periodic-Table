@@ -157,35 +157,35 @@
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.lbl2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtatmnum = new System.Windows.Forms.TextBox();
             this.lbl1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtname = new System.Windows.Forms.TextBox();
             this.lbl3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtgroup = new System.Windows.Forms.TextBox();
             this.lbl4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtperiod = new System.Windows.Forms.TextBox();
             this.lbl5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtelecconfig = new System.Windows.Forms.TextBox();
             this.lbl7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtmelting = new System.Windows.Forms.TextBox();
             this.lbl6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtphase = new System.Windows.Forms.TextBox();
             this.lbl8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtboiling = new System.Windows.Forms.TextBox();
             this.lbl9 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtdensity = new System.Windows.Forms.TextBox();
             this.lbl10 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txttriple = new System.Windows.Forms.TextBox();
             this.lbl12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtelecneg = new System.Windows.Forms.TextBox();
             this.lbl11 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtoxidation = new System.Windows.Forms.TextBox();
             this.lbl13 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtspdoflight = new System.Windows.Forms.TextBox();
             this.lbl14 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtdescovery = new System.Windows.Forms.TextBox();
             this.lbl15 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtnamedby = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -1771,15 +1771,15 @@
             this.lbl2.TabIndex = 1;
             this.lbl2.Text = "Atomic Number:";
             // 
-            // textBox1
+            // txtatmnum
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(290, 700);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(176, 25);
-            this.textBox1.TabIndex = 2;
+            this.txtatmnum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtatmnum.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtatmnum.Location = new System.Drawing.Point(290, 700);
+            this.txtatmnum.Name = "txtatmnum";
+            this.txtatmnum.ReadOnly = true;
+            this.txtatmnum.Size = new System.Drawing.Size(176, 25);
+            this.txtatmnum.TabIndex = 2;
             // 
             // lbl1
             // 
@@ -1792,15 +1792,15 @@
             this.lbl1.TabIndex = 1;
             this.lbl1.Text = "Name:";
             // 
-            // textBox2
+            // txtname
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(291, 661);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(176, 25);
-            this.textBox2.TabIndex = 2;
+            this.txtname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtname.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtname.Location = new System.Drawing.Point(291, 661);
+            this.txtname.Name = "txtname";
+            this.txtname.ReadOnly = true;
+            this.txtname.Size = new System.Drawing.Size(176, 25);
+            this.txtname.TabIndex = 2;
             // 
             // lbl3
             // 
@@ -1813,15 +1813,15 @@
             this.lbl3.TabIndex = 1;
             this.lbl3.Text = "Group:";
             // 
-            // textBox3
+            // txtgroup
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(290, 740);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(176, 25);
-            this.textBox3.TabIndex = 2;
+            this.txtgroup.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtgroup.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtgroup.Location = new System.Drawing.Point(290, 740);
+            this.txtgroup.Name = "txtgroup";
+            this.txtgroup.ReadOnly = true;
+            this.txtgroup.Size = new System.Drawing.Size(176, 25);
+            this.txtgroup.TabIndex = 2;
             // 
             // lbl4
             // 
@@ -1834,15 +1834,15 @@
             this.lbl4.TabIndex = 1;
             this.lbl4.Text = "Period:";
             // 
-            // textBox4
+            // txtperiod
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(290, 780);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(176, 25);
-            this.textBox4.TabIndex = 2;
+            this.txtperiod.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtperiod.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtperiod.Location = new System.Drawing.Point(290, 780);
+            this.txtperiod.Name = "txtperiod";
+            this.txtperiod.ReadOnly = true;
+            this.txtperiod.Size = new System.Drawing.Size(176, 25);
+            this.txtperiod.TabIndex = 2;
             // 
             // lbl5
             // 
@@ -1855,15 +1855,15 @@
             this.lbl5.TabIndex = 1;
             this.lbl5.Text = "Electron Configuration:";
             // 
-            // textBox5
+            // txtelecconfig
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(290, 822);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(176, 25);
-            this.textBox5.TabIndex = 2;
+            this.txtelecconfig.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtelecconfig.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtelecconfig.Location = new System.Drawing.Point(290, 822);
+            this.txtelecconfig.Name = "txtelecconfig";
+            this.txtelecconfig.ReadOnly = true;
+            this.txtelecconfig.Size = new System.Drawing.Size(176, 25);
+            this.txtelecconfig.TabIndex = 2;
             // 
             // lbl7
             // 
@@ -1876,15 +1876,15 @@
             this.lbl7.TabIndex = 1;
             this.lbl7.Text = "Melting Point:";
             // 
-            // textBox6
+            // txtmelting
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(739, 702);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(176, 25);
-            this.textBox6.TabIndex = 2;
+            this.txtmelting.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtmelting.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtmelting.Location = new System.Drawing.Point(739, 702);
+            this.txtmelting.Name = "txtmelting";
+            this.txtmelting.ReadOnly = true;
+            this.txtmelting.Size = new System.Drawing.Size(176, 25);
+            this.txtmelting.TabIndex = 2;
             // 
             // lbl6
             // 
@@ -1897,15 +1897,15 @@
             this.lbl6.TabIndex = 1;
             this.lbl6.Text = "Phase:";
             // 
-            // textBox7
+            // txtphase
             // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(740, 663);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(176, 25);
-            this.textBox7.TabIndex = 2;
+            this.txtphase.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtphase.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtphase.Location = new System.Drawing.Point(740, 663);
+            this.txtphase.Name = "txtphase";
+            this.txtphase.ReadOnly = true;
+            this.txtphase.Size = new System.Drawing.Size(176, 25);
+            this.txtphase.TabIndex = 2;
             // 
             // lbl8
             // 
@@ -1918,15 +1918,15 @@
             this.lbl8.TabIndex = 1;
             this.lbl8.Text = "Boiling Point:";
             // 
-            // textBox8
+            // txtboiling
             // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(739, 742);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(176, 25);
-            this.textBox8.TabIndex = 2;
+            this.txtboiling.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtboiling.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboiling.Location = new System.Drawing.Point(739, 742);
+            this.txtboiling.Name = "txtboiling";
+            this.txtboiling.ReadOnly = true;
+            this.txtboiling.Size = new System.Drawing.Size(176, 25);
+            this.txtboiling.TabIndex = 2;
             // 
             // lbl9
             // 
@@ -1939,15 +1939,15 @@
             this.lbl9.TabIndex = 1;
             this.lbl9.Text = "Density:";
             // 
-            // textBox9
+            // txtdensity
             // 
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(739, 782);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(176, 25);
-            this.textBox9.TabIndex = 2;
+            this.txtdensity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtdensity.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdensity.Location = new System.Drawing.Point(739, 782);
+            this.txtdensity.Name = "txtdensity";
+            this.txtdensity.ReadOnly = true;
+            this.txtdensity.Size = new System.Drawing.Size(176, 25);
+            this.txtdensity.TabIndex = 2;
             // 
             // lbl10
             // 
@@ -1960,15 +1960,15 @@
             this.lbl10.TabIndex = 1;
             this.lbl10.Text = "Triple Point:";
             // 
-            // textBox10
+            // txttriple
             // 
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(739, 824);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(176, 25);
-            this.textBox10.TabIndex = 2;
+            this.txttriple.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txttriple.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttriple.Location = new System.Drawing.Point(739, 824);
+            this.txttriple.Name = "txttriple";
+            this.txttriple.ReadOnly = true;
+            this.txttriple.Size = new System.Drawing.Size(176, 25);
+            this.txttriple.TabIndex = 2;
             // 
             // lbl12
             // 
@@ -1981,15 +1981,15 @@
             this.lbl12.TabIndex = 1;
             this.lbl12.Text = "Electronegativity:";
             // 
-            // textBox11
+            // txtelecneg
             // 
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(1250, 700);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(176, 25);
-            this.textBox11.TabIndex = 2;
+            this.txtelecneg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtelecneg.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtelecneg.Location = new System.Drawing.Point(1250, 700);
+            this.txtelecneg.Name = "txtelecneg";
+            this.txtelecneg.ReadOnly = true;
+            this.txtelecneg.Size = new System.Drawing.Size(176, 25);
+            this.txtelecneg.TabIndex = 2;
             // 
             // lbl11
             // 
@@ -2002,15 +2002,15 @@
             this.lbl11.TabIndex = 1;
             this.lbl11.Text = "Oxidation State(s):";
             // 
-            // textBox12
+            // txtoxidation
             // 
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(1251, 661);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(176, 25);
-            this.textBox12.TabIndex = 2;
+            this.txtoxidation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtoxidation.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtoxidation.Location = new System.Drawing.Point(1251, 661);
+            this.txtoxidation.Name = "txtoxidation";
+            this.txtoxidation.ReadOnly = true;
+            this.txtoxidation.Size = new System.Drawing.Size(176, 25);
+            this.txtoxidation.TabIndex = 2;
             // 
             // lbl13
             // 
@@ -2023,15 +2023,15 @@
             this.lbl13.TabIndex = 1;
             this.lbl13.Text = "Speed of Sound:";
             // 
-            // textBox13
+            // txtspdoflight
             // 
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox13.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(1250, 740);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(176, 25);
-            this.textBox13.TabIndex = 2;
+            this.txtspdoflight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtspdoflight.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtspdoflight.Location = new System.Drawing.Point(1250, 740);
+            this.txtspdoflight.Name = "txtspdoflight";
+            this.txtspdoflight.ReadOnly = true;
+            this.txtspdoflight.Size = new System.Drawing.Size(176, 25);
+            this.txtspdoflight.TabIndex = 2;
             // 
             // lbl14
             // 
@@ -2044,15 +2044,15 @@
             this.lbl14.TabIndex = 1;
             this.lbl14.Text = "Discovery:";
             // 
-            // textBox14
+            // txtdescovery
             // 
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(1250, 780);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(176, 25);
-            this.textBox14.TabIndex = 2;
+            this.txtdescovery.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtdescovery.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdescovery.Location = new System.Drawing.Point(1250, 780);
+            this.txtdescovery.Name = "txtdescovery";
+            this.txtdescovery.ReadOnly = true;
+            this.txtdescovery.Size = new System.Drawing.Size(176, 25);
+            this.txtdescovery.TabIndex = 2;
             // 
             // lbl15
             // 
@@ -2065,15 +2065,15 @@
             this.lbl15.TabIndex = 1;
             this.lbl15.Text = "Named By:";
             // 
-            // textBox15
+            // txtnamedby
             // 
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox15.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(1250, 822);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(176, 25);
-            this.textBox15.TabIndex = 2;
+            this.txtnamedby.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtnamedby.Font = new System.Drawing.Font("Open Sans Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnamedby.Location = new System.Drawing.Point(1250, 822);
+            this.txtnamedby.Name = "txtnamedby";
+            this.txtnamedby.ReadOnly = true;
+            this.txtnamedby.Size = new System.Drawing.Size(176, 25);
+            this.txtnamedby.TabIndex = 2;
             // 
             // label5
             // 
@@ -2246,31 +2246,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1674, 955);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtnamedby);
+            this.Controls.Add(this.txttriple);
+            this.Controls.Add(this.txtelecconfig);
             this.Controls.Add(this.lbl15);
             this.Controls.Add(this.lbl10);
             this.Controls.Add(this.lbl5);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtdescovery);
+            this.Controls.Add(this.txtdensity);
+            this.Controls.Add(this.txtperiod);
             this.Controls.Add(this.lbl14);
             this.Controls.Add(this.lbl9);
             this.Controls.Add(this.lbl4);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtspdoflight);
+            this.Controls.Add(this.txtboiling);
+            this.Controls.Add(this.txtgroup);
             this.Controls.Add(this.lbl13);
             this.Controls.Add(this.lbl8);
             this.Controls.Add(this.lbl3);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.txtoxidation);
             this.Controls.Add(this.lbl11);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtphase);
             this.Controls.Add(this.lbl6);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtelecneg);
+            this.Controls.Add(this.txtname);
+            this.Controls.Add(this.txtmelting);
             this.Controls.Add(this.lbl12);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label14);
@@ -2289,7 +2289,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.lbl7);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtatmnum);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -2559,35 +2559,35 @@
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtatmnum;
         private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtname;
         private System.Windows.Forms.Label lbl3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtgroup;
         private System.Windows.Forms.Label lbl4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtperiod;
         private System.Windows.Forms.Label lbl5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtelecconfig;
         private System.Windows.Forms.Label lbl7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtmelting;
         private System.Windows.Forms.Label lbl6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtphase;
         private System.Windows.Forms.Label lbl8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtboiling;
         private System.Windows.Forms.Label lbl9;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtdensity;
         private System.Windows.Forms.Label lbl10;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txttriple;
         private System.Windows.Forms.Label lbl12;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtelecneg;
         private System.Windows.Forms.Label lbl11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtoxidation;
         private System.Windows.Forms.Label lbl13;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtspdoflight;
         private System.Windows.Forms.Label lbl14;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtdescovery;
         private System.Windows.Forms.Label lbl15;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtnamedby;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;

@@ -307,5 +307,10 @@ namespace Periodic_Table
             da.Update(ds1, "elements");
             MessageBox.Show("Element Added");
         }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

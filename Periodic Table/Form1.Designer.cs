@@ -204,6 +204,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.lbl16 = new System.Windows.Forms.Label();
             this.txtatmmass = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -2378,12 +2379,26 @@
             this.txtatmmass.Size = new System.Drawing.Size(176, 25);
             this.txtatmmass.TabIndex = 2;
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Red;
+            this.label21.Font = new System.Drawing.Font("Open Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(1650, 1);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(23, 26);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "×";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1674, 967);
+            this.Controls.Add(this.label21);
             this.Controls.Add(this.txtnamedby);
             this.Controls.Add(this.txttriple);
             this.Controls.Add(this.txtelecconfig);
@@ -2747,6 +2762,7 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label lbl16;
         private System.Windows.Forms.TextBox txtatmmass;
+        private System.Windows.Forms.Label label21;
     }
 }
 
